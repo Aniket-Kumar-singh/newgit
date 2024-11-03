@@ -1,0 +1,40 @@
+.box{
+  height: 200px;
+  width: 200px;;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.red{
+background-color: red;
+}
+.yellow{
+  background-color: rgb(169, 169, 11);
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: wrap;
+  margin-top: 100px;
+  margin: auto;
+  height: 220px;
+  width: 450px;
+ flex-wrap: wrap;
+ gap: 10px;
+  /* border: 2px solid black; */
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.flash{
+  background-color: #fff;
+}
